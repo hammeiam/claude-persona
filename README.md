@@ -3,7 +3,7 @@
 # starting from empty directory
 uv init
 uv venv
-uv add marimo polars "transformers[torch]" openai tqdm
+uv add marimo polars "transformers[torch]" openai tqdm asyncio
 uv run marimo edit
 ```
 
